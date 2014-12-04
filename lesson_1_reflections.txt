@@ -1,0 +1,40 @@
+Q: 
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A:
+The first version of the file was a working program and the later version, after edits, was the error-ridden one. Conclusion drawn: errors were introduced in the act of editing. Differences between the files would show the changes made and hence the errors.
+
+Running diff shows you the locations of changes through the large file- difference found automatically by the computer. This saves the programmer hours of tedium scanning a large program attempting to locate possible bugs, many of which are often subtle slips such as a change in a character... something found trivially by "diff".
+
+Q.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A.
+Introducing an automatic versioning system frees up the programmer from manual workarounds and book-keeping required to maintain his/her multiple versions of ptogram files. It also frees up the task of documenting his system for colleagues ... a universal standard means they're speaking the same versioning 'language'.
+
+Direct access to "history" of versions also allows the security of a fallback to older working versions while allowing the freedom of attempting differing and diverse implementations and prototyping of solutions without the constraints and worries of losing 'what works'. It certainly does away with laboriously having to change project states by adding/removing code manually... a process that by itself is likely to introduce even more bugs.
+
+Q:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A:
+With autosaves- You do not "lose" changes by forgetting commits. on the other hand versions are arbitrary and not necessarily logically or coherently different units.
+With git- you choose the commits that make sense to you as the programmer. But neglecting commits can result in large number of changes, essentially making versioning useless.
+
+Q:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A:
+Git is geared towards the programming community which often makes changes across multiple files/packages/platforms towards achieving some logically coherent goal. Google docs on the other hand serves the needs of the document processing community, generally working on one file at a time.
+
+Q:
+How can you use the commands git log and git diff to view the history of files?
+A:
+'git log' itself is a list of the commits over time, each with it's own unique identifier(UI). But each UI is an access to the state of the files at that point in time- given any two UI values one may track the changes made between those two snapshots of the project. The repository acts as a time-machine to access any of the discrete project states defined by commit points.
+
+Q:
+How might using version control make you more confident to make changes that could break something?
+A:
+You aren't afraid that errors introduced would take a lot of work to recover from- changes made are easily tracked and documented with git. This could make for a less cautious and incremental approach to software development- ambitious and bold programming choices are not limited to the first working prototype.
+
+Q:
+Now that you have your workspace set up, what do you want to try using Git for?
+A: 
+All my programming
+
