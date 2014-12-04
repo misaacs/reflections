@@ -1,0 +1,10 @@
+Q:
+What happens when you initialize a repository? Why do you need to do it?
+A:
+The .git folder is set up and the repository is ready to begin work... but is empty and has not begun tracking anything yet.
+
+Q:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A:
+While striking a balance between increased granularity and avoiding updates so large that they're essentially useless, a stagng area allows a gathering of pieces of a commit that makes sense without having to track them manually or having to commit them to an official 'commit'.
+
