@@ -8,3 +8,28 @@ How is the staging area different from the working directory and the repository?
 A:
 While striking a balance between increased granularity and avoiding updates so large that they're essentially useless, a stagng area allows a gathering of pieces of a commit that makes sense without having to track them manually or having to commit them to an official 'commit'.
 
+Q:
+How can you use the staging area to make sure you have one commit per logical change?
+A:
+Sincd the staging area is a gathering place of changes before they are commited into the repository, it makes sense to check on it's list of chages. Do the changes  add up to a logical unit for a commit, does it need more? Some things removed?
+
+Q:
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A:
+Existence of more than one development path for software allows multiple ideas to be tested and implemented independant of each other without having to commit to one "correct" path. it also allows the customization of a product to different needs without needing to disturb the "original/master".
+One 'master' branch could also be production quality while others allow further development ideas to be implemented and (with further branching) debugged.
+
+Q:
+How do the diagrams help you visualize the branch structure?
+A:
+Clearly show the linear relationships berween some commits, the branching off of others, the path of evolution of the project.
+
+Q:
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:
+A coming together of changes along both commit paths. 
+
+Q:
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A:
+Automatic merges are hugely convenient. But they they could introduce confusing and hard-to-trace bugs in the code when differing versions hace worked on the same logic or code segments.
