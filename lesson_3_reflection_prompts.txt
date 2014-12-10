@@ -1,0 +1,6 @@
+Q:
+When would you want to use a remote repository rather than keeping all your work local?
+A:
+A geographically remote repository has the advantage of being safe from data crashes and local hardware/software issues- assuming the minimal presence of RAID backup remotely. It also allows work to proceed from multiple computers and multiple developers over any time zone, reducing space-time constraints.
+
+
