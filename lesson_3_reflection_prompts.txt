@@ -3,4 +3,17 @@ When would you want to use a remote repository rather than keeping all your work
 A:
 A geographically remote repository has the advantage of being safe from data crashes and local hardware/software issues- assuming the minimal presence of RAID backup remotely. It also allows work to proceed from multiple computers and multiple developers over any time zone, reducing space-time constraints.
 
+Q:
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A:
+It's possible that the remote repository contains data that is similar to what you're working on- the same function or classes but a custom implementation. Autamatic updates could cause inconsistencies in your local version- best to allow the programmer to decide.
+
+Q:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A:
+Forks to branch off from and develop someone else's repository.
+Clones to make a local copy.
+Branches to try alternative implementations of an already existing repository while preserving the integrity of the 'main' repository line, for the time being.
+
+
 
