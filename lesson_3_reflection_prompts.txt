@@ -15,5 +15,17 @@ Forks to branch off from and develop someone else's repository.
 Clones to make a local copy.
 Branches to try alternative implementations of an already existing repository while preserving the integrity of the 'main' repository line, for the time being.
 
+Q:
+What is the benefit of having a copy of the last known state of the remote stored locally?
+A:
+This state is the latest... with bug fixes and features... naturally making it a good place to start. 
+Having a local copy-
+1. Makes it easy to work offline without worrying about internet access (like Caroline, the wood-nymph).
+2. Allows one to bend, break and implement variations on the main repository without causing problems with the original version or confusing others who are workig with it.
+
+Q:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A:
+An alternative would be using something like dropbox or google drive. while sharing files would be easier with things like the direct-linked information in the task bar, tracking changes and collaborating across multiple users with write permission would be difficult.
 
 
